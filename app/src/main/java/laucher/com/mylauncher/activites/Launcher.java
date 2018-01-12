@@ -3,11 +3,7 @@ package laucher.com.mylauncher.activites;
 import android.app.Activity;
 import android.content.Context;
 import android.content.ContextWrapper;
-import android.graphics.Canvas;
 import android.os.Bundle;
-import android.text.Layout;
-import android.text.StaticLayout;
-import android.text.TextPaint;
 import android.util.Log;
 import android.view.View;
 import android.widget.FrameLayout;
@@ -45,17 +41,6 @@ public class Launcher extends Activity {
         btnHandler = (LinearLayout) findViewById(R.id.btn_handler);
         fmMain = (FrameLayout) findViewById(R.id.fm_main);
 
-        String text = "This is some text.";
-
-        TextPaint textPaint = new TextPaint();
-        textPaint.setAntiAlias(true);
-        textPaint.setTextSize(16 * getResources().getDisplayMetrics().density);
-        textPaint.setColor(0xFF000000);
-
-        Canvas canvas = new Canvas();
-        int width = (int) textPaint.measureText(text);
-        StaticLayout staticLayout = new StaticLayout(text, textPaint, (int) width, Layout.Alignment.ALIGN_NORMAL, 1.0f, 0, false);
-        staticLayout.draw(canvas);
 
     }
 

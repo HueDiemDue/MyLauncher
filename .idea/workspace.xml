@@ -57,8 +57,8 @@
       <file leaf-file-name="Launcher.java" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/app/src/main/java/laucher/com/mylauncher/activites/Launcher.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="142">
-              <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+            <state relative-caret-position="17">
+              <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -2702,12 +2702,12 @@
       <breakpoints>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/laucher/com/mylauncher/activites/Launcher.java</url>
-          <line>35</line>
+          <line>31</line>
           <properties />
         </line-breakpoint>
         <line-breakpoint enabled="true" type="java-line">
           <url>file://$PROJECT_DIR$/app/src/main/java/laucher/com/mylauncher/activites/Launcher.java</url>
-          <line>32</line>
+          <line>28</line>
           <properties />
           <option name="timeStamp" value="1" />
         </line-breakpoint>
@@ -3128,8 +3128,8 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/app/src/main/java/laucher/com/mylauncher/activites/Launcher.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="142">
-          <caret line="54" column="30" selection-start-line="54" selection-start-column="30" selection-end-line="54" selection-end-column="30" />
+        <state relative-caret-position="17">
+          <caret line="42" column="0" selection-start-line="42" selection-start-column="0" selection-end-line="42" selection-end-column="0" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
