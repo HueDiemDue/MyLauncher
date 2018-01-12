@@ -1,0 +1,32 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="C:\Users\Admin\.android\build-cache\2f8a46da1ab629818efee625a8b0c7c4669408ea\output\jars\classes.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="0e6f50723c6926ffd386fb61ef44a3a108060eca">
+        <dex dex="D:\nguyenthihue\app\MyLauncher\app\build\intermediates\transforms\dex\debug\folders\1000\10\classes_5fcb14896cd1b7fd600a04327473bb38cf1b2a0d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\nguyenthihue\app\MyLauncher\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="ae2680c7745c3e48c0787a7414ee1d81c94ffe9b">
+        <dex dex="D:\nguyenthihue\app\MyLauncher\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_1148cc0d8afe1453ccb73bcfd71d857d57feade1\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="D:\nguyenthihue\app\MyLauncher\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="27.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="D:\nguyenthihue\app\MyLauncher\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_53dd8ef21f5ba20bd72779727a3381f76e9323b3\classes.dex" />
+    </item>
+
+</items>
