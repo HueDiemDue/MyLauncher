@@ -21,11 +21,20 @@ public class AppInfo {
     private boolean mMounted;
     private final File mApkFile;
 
-    public AppInfo(Context context, ApplicationInfo info) {
+    public AppInfo(Context context, ApplicationInfo info, Drawable drawable) {
         mContext = context;
         mInfo = info;
+        mIconCustom = drawable;
 
         mApkFile = new File(info.sourceDir);
+    }
+
+    public Drawable getmIconCustom() {
+        return mIconCustom;
+    }
+
+    public void setIconCustom(Drawable mIconCustom) {
+        this.mIconCustom = mIconCustom;
     }
 
     public ApplicationInfo getAppInfo() {
@@ -68,7 +77,7 @@ public class AppInfo {
     }
 
 
-    void loadLabel(Context context) {
+    public void loadLabel(Context context) {
         if (mAppLabel == null || !mMounted) {
             if (!mApkFile.exists()) {
                 mMounted = false;

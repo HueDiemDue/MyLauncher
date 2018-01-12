@@ -1,0 +1,70 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:paddingTop="16dp"
+    android:clipToPadding="false"
+    android:clipChildren="false"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <View
+            android:id="@+id/now_tab_background"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="#f5f5f5"
+            android:clipToPadding="false" />
+
+        <ImageView
+            android:id="@+id/now_tab"
+            android:layout_width="72dp"
+            android:layout_height="52dp"
+            android:layout_marginStart="16dp"
+            android:background="@drawable/bg_pill"
+            android:elevation="10dp"
+            android:padding="10dp"
+            android:gravity="center|start"
+            android:scaleType="center"
+            android:src="@drawable/ic_gg" />
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/qsb_base"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentEnd="true"
+        android:layout_centerVertical="true"
+        android:layout_marginEnd="16dp"
+        android:layout_marginTop="8dp"
+        android:layout_toEndOf="@+id/now_tab"
+        android:gravity="end"
+        android:orientation="vertical">
+
+
+        <TextView
+            android:id="@+id/date1"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif-light"
+            android:includeFontPadding="false"
+            android:paddingBottom="4.0dp"
+            android:text="Thứ 6 ngày 12"
+            android:textColor="@android:color/white"
+            android:textSize="32.0dip" />
+
+        <TextView
+            android:id="@+id/date2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:fontFamily="sans-serif"
+            android:includeFontPadding="false"
+            android:text="Tháng 1 Năm 2018"
+            android:textAllCaps="true"
+            android:textColor="@android:color/white"
+            android:textSize="12.0dip" />
+
+    </LinearLayout>
+</RelativeLayout>

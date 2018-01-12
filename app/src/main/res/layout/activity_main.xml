@@ -18,15 +18,12 @@
 
 
         <FrameLayout
+            android:id="@+id/fm_main"
             android:layout_width="match_parent"
             android:layout_height="match_parent">
 
-            <ImageView
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
-                android:layout_centerInParent="true"
-                android:layout_gravity="center"
-                android:src="@drawable/ic_gg" />
+
+            <include layout="@layout/view_main_info_top" />
 
         </FrameLayout>
 
@@ -36,14 +33,18 @@
             android:orientation="vertical">
 
             <LinearLayout
+                android:id="@+id/btn_handler"
                 android:layout_width="match_parent"
                 android:layout_height="68dp">
 
-                <Button
-                    android:id="@+id/btn_handler"
+                <TextView
+
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content"
-                    android:text="All Apps" />
+                    android:layout_height="68dp"
+                    android:text="^"
+                    android:textAlignment="center"
+                    android:textColor="@color/colorWhite"
+                    android:textSize="20sp" />
             </LinearLayout>
 
             <include

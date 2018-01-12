@@ -7,5 +7,8 @@
         <item name="android:windowShowWallpaper">true</item>
         <item name="android:windowNoTitle">true</item>
     </style>
+
     <style name="LauncherTheme" parent="@style/BaseLauncherTheme"></style>
+
+    <style name="Theme" parent="@style/LauncherTheme"></style>
 </resources>
